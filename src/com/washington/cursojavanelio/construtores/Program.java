@@ -18,7 +18,7 @@ public class Program {
 		double price = scan.nextDouble();
 		System.out.print("Quantity in stock: ");
 		int quantity = scan.nextInt();
-		
+		// pega os dados name price e quantity e manda para o construtor product
 		Product product = new Product(name, price, quantity);
 
 		// System.out.println(product.name + ", " + product.price + ", " +
